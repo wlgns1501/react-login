@@ -3,14 +3,14 @@ import React from "react";
 import "./App.css";
 // eslint-disable-next-line
 import Home from "./pages/Home";
-// import main from './pages/main';
+import Main from "./pages/Main";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/home1" element={<>main</>}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/home1" element={<Main />}></Route>
         <Route path="/home2" element={<>page</>}></Route>
       </Routes>
     </Router>
