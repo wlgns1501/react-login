@@ -20,12 +20,12 @@ export default function Home() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#!">
+                <a className="nav-link" href="/signup">
                   Sign Up
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#!">
+                <a className="nav-link" href="/login">
                   Log In
                 </a>
               </li>
@@ -42,7 +42,8 @@ export default function Home() {
 
             <a
               className="btn btn-primary btn-xl rounded-pill mt-1"
-              href="/home1"
+              href="/main"
+              //여기 중요 💖💖💖💖💖
             >
               START
             </a>
